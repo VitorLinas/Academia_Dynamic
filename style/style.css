@@ -133,6 +133,7 @@ body{
     text-align: center;
     color: white;
     margin-bottom: 100px;
+    visibility: hidden;
 }
 
 .servicos_prestados h2{
@@ -565,4 +566,8 @@ form button{
         font-size: 7px;
     }
 }
+
+
+
+
 
