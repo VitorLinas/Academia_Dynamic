@@ -196,14 +196,61 @@ body{
     border-color: #E67E22;
 }
 
+
+/* CALCULADORA DE IMC */
+
+#imc{
+    background-color:rgb(25, 25, 25);
+    padding: 100px;
+    text-align: center;
+    margin-top: 100px; 
+}
+
+#containerIMC{
+    padding: 5rem;
+    border: 3px solid #E67E22;
+    width: 50rem;
+    margin: auto;
+    background-color: rgba(73, 72, 72, 0.447);
+}
+
+#imc h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#resultadoIMC{
+    color: #fff;
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+#imc input{
+    margin: 1rem;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#imc button{
+    height: 40px;
+    padding: 5px;
+    font-size: 17px;
+    text-align: center;
+    background-color: rgba(87, 205, 87, 0.819);
+    cursor: pointer;
+}
+
+
 /* FORMULÁRIO */
 
 form{
-    margin-top: 110px;
     text-align: center;
     font-size: 20px;
     color: #E67E22;
-    background-color:rgb(25, 25, 25);
+    /* background-color:rgb(25, 25, 25); */
 }
 
 form input{
@@ -222,6 +269,8 @@ form button{
     border: none;
     margin-bottom: 100px;
 }
+
+
 
 
 /* FOOTER */
@@ -610,6 +659,99 @@ footer div{
     }
 }
 
+
+/* RESPONSIVIDADE IMC */
+
+
+@media(max-width: 1600px){
+
+    #containerIMC{
+        padding: 3rem;
+        width: 45rem;
+    }
+    
+    #imc h1{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    
+    #resultadoIMC{
+        color: #fff;
+        font-size: 22px;
+    }
+    
+    #imc input{
+        margin: 1rem;
+        width: 120px;
+        height: 30px;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    
+    #imc button{
+        height: 35px;
+        padding: 5px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 1000px){
+ 
+    #containerIMC{
+        padding: 2rem;
+        width: 36rem;
+    }
+    
+    #imc h1{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    #resultadoIMC{
+        color: #fff;
+        font-size: 18px;
+    }
+    
+    #imc input{
+        margin: 1rem auto;
+        width: 150px;
+        height: 25px;
+        font-size: 13px;
+        display: block;
+       
+    }
+    
+    #imc button{
+        height: 30px;
+        padding: 4px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 800px){
+
+    #containerIMC{
+        padding: 2rem;
+        width: 20rem;
+  }
+}  
+
+@media(max-width: 450px){
+
+    #imc{
+        padding: 50px;
+    }
+
+    #imc h1{
+        font-size: 13px;
+    }
+
+    #containerIMC{
+        width: 17rem;
+        text-align: center;
+        margin: auto;
+  }
+}  
 
 /* RESPONSIVIDADE FORMULÁRIO */
 
